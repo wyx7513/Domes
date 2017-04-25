@@ -1,0 +1,232 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/*去掉a标签下划线*/
+a{
+	text-decoration: none;
+	
+}
+/*去掉li的小标点*/
+li{
+	list-style: none;
+}
+/*身体部分*/
+.body{
+	width: 1000px;
+	height: auto;
+	margin: 1px auto;
+}
+
+/*身体中间左边部分*/
+.centre_left{
+	float: left;
+	width: 671px;
+	height: auto;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+/*位置导航字体*/
+.centre_left p{
+	width: 500px;
+	height: 25px;
+	font-size: 15px;
+	line-height: 18px;
+}
+.centre_left p a{
+	font-size: 12px;
+	color: black;
+	margin-top: 1px;
+}
+/*从专业角度字条*/
+.left_tiao{
+	width: 671px;
+	height:37px;
+    background: red;
+    margin-top: 5px;
+}
+.left_tiao p{
+	width: 671px;
+	color: white;
+	text-align: center;
+	padding-top: 8px;
+	font-size: 15px;
+}
+/*图片文字部分*/
+.left_photo{
+	width:660px;
+	height:462px;
+	padding-left: 10px;
+	margin-top: 15px;
+}
+/*text-indent: 36px;设置字体首行缩进多少像素*/
+.left_photo p{
+	width: 670px;
+	height: 45px;
+    font-size: 14px;
+	color: #616161;
+	text-indent: 25px;
+}
+/*纯文字*/
+.left_chunwenzi{
+	width: 660px;
+	height: auto;
+	padding-left: 10px;
+}
+.left_chunwenzi ul{
+	width: 660px;
+	height: auto;
+}
+.left_chunwenzi ul li{
+	width: 660px;
+	height: auto;
+	font-size: 12px;
+	color: #616161;
+	line-height: 26px;
+	position: relative;
+}
+.left_chunwenzi>ul>li>a{
+	color: #616161;
+	width: 18px;
+	height: 18px;
+}
+.left_chunwenzi>ul>li>a>img{
+	position: absolute;
+	padding-top: 4px;
+	padding-left: 6px;
+	
+}
+
+
+
+/*身体中间右边部分*/
+.centre_right{
+	width: 300px;
+	height: 1000px;
+	float:right;
+	margin-top: 10px;
+	padding-top: 30px;
+}
+/*头部按钮文字*/
+.centre-right-top{
+	widows: 290px;
+	height: 33px;	
+	background-color:red ;
+	float: left;
+}
+/*按钮*/
+.tup{
+	width: 27px;
+	height: 33px;
+	float: left;
+}
+/*推荐图片文章*/
+.zhiti{
+	float: left;
+	width: 263px;
+	height: 33px;
+}
+.zhiti ul li{
+	font-size: 18px;
+	font-weight: bold;
+	color: white;
+	padding-left: 10px;
+	padding-top: 6px;	
+}
+/*图片部分*/
+.centre-right-box{
+	width: 289px;
+	height: 410px;
+	float: left;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	/*background-color: indianred;*/
+	
+}
+/*图片设置*/
+.centre-right-tu{
+	width: 120px;
+    height: 127px;
+    float: left;
+    margin: 5px 10px;
+}
+
+.centre-right-tu img{
+	width: 125px;
+	height: 102px;
+	border: 1px solid #dbdbdb;
+	padding: 2px;
+}
+.centre-right-tu p{
+	font-size: 13px;
+	line-height: 20px;
+}
+.centre-right-tu:hover p{
+	color: red;
+}
+/*热点文章*/
+.zhiti-2{
+	float: left;
+	width: 263px;
+	height: 33px;
+}
+.zhiti-2 ul li{
+	font-size: 18px;
+	font-weight: bold;
+	color: white;
+	padding-left: 10px;
+	padding-top: 6px;	
+}
+/*中右底部文字*/
+.centre-right-wenzhi{
+	width: 289px;
+	height: 200px;
+	float: left;
+	margin: 10px 0;
+	/*margin: auto;*/
+	/*background: orangered;*/
+}
+.centre-right-wenzhi ul{
+	width: 285px;
+	height: 120px;
+}
+.centre-right-wenzhi ul li{
+	width: 289px;
+	height: 27px;
+}
+.centre-right-wenzhi ul li a{
+	display: block;
+    width: 274px;
+	height: 27px;
+	font-size: 13px;
+	line-height: 26px;
+    color: black;
+    padding-left: 26px;
+    background: url(../img/libg5.png) no-repeat; 
+}
+/*中右底部文字悬停*/
+.centre-right-wenzhi ul li a:hover{
+	background-position-y: -28px;
+	color: white;
+}
+/*中右底部文字背景悬停色*/
+.centre-right-wenzhi ul li:nth-child(1):hover{
+	background: red;
+}
+.centre-right-wenzhi ul li:nth-child(2):hover{
+	background: red;
+}
+.centre-right-wenzhi ul li:nth-child(3):hover{
+	background: red;
+}
+.centre-right-wenzhi ul li:nth-child(4):hover{
+	background: red;
+}
+.centre-right-wenzhi ul li:nth-child(5):hover{
+	background: red;
+}
+.centre-right-wenzhi ul li:nth-child(6):hover{
+	background: red;
+}
+
+

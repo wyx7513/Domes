@@ -1,0 +1,288 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/*去掉a标签下划线*/
+a{
+	text-decoration: none;
+	
+}
+/*去掉li的小标点*/
+li{
+	list-style: none;
+}
+/*身体部分*/
+.body{
+	width: 1000px;
+	height: 1000px;
+	margin: 1px auto;
+}
+
+/*身体中间左边部分*/
+.centre-left{
+	width: 657px;
+	height: 835px;
+	margin-left: 5px;
+	margin-top: 10px;
+	float: left;
+	padding:10px ;
+
+}
+.centre-left p{
+	font-size: 16px;
+	line-height: 20px;
+}
+.centre-left p a{
+	font-size: 12px;
+	color: black;
+}
+/*left框*/
+.left-kuang{
+	width: 650px;
+	height: 80px;
+    margin: 10px 0;
+    border-bottom: 1px dotted;
+}
+/*按钮图*/
+.left-tupian{
+	width: 63px;
+	height: 65px;
+	float:left;	
+	border-radius: 8%;
+	background: url(../img/libg11.gif) no-repeat;
+}
+.left-tupian ul li{
+	width:auto;
+	height: auto;
+	text-align: center;	
+}
+.left-tupian ul li:nth-child(1){
+	color: #535353;
+	font-size: 27px;
+	font-weight: bold;
+	font-family: "微软雅黑";
+}
+.left-tupian ul li:nth-child(2){
+	color: black;
+	font-size: 12px;
+	padding-top: 10px;
+}
+/*此处是悬停到大的div.left-kuang上去改变left-tupian的颜色，hover加空格加left-tupian*/
+.left-kuang:hover .left-tupian{
+	background-position-y:-69px;
+}
+.left-kuang:hover .left-tupian ul li{
+	color: white;
+}
+.left-tu{
+	width: 619px;
+	height: 79px;
+}
+/*文*/
+.left-wen{
+	width: 581px;
+	height: 69px;
+	float: left;
+}
+.left-wen ul{
+	width: 590px;
+	height: 69px;
+	padding-top: 6px;
+	padding-left:10px;
+	
+}
+.left-wen ul li a{
+	color: black;
+}
+.left-wen ul li:nth-child(1){
+	font-size: 15px;
+	font-weight: bold;
+}
+.left-wen ul li:nth-child(2){
+	font-size: 12px;
+}
+.left-wen ul li:nth-child(3){
+	font-size: 13px;
+}
+.left-wen ul li:nth-child(4){
+	font-size: 13px;
+}
+
+
+/*身体中间右边部分*/
+.centre-right{
+	width: 300px;
+	height: 830px;
+	/*background-color: orange;*/
+	float:right;
+	margin-top: 10px;
+	padding-top: 30px;
+}
+/*头部按钮文字*/
+.centre-right-top{
+	widows: 290px;
+	height: 33px;	
+	background-color:red ;
+	float: left;
+}
+/*按钮*/
+.tup{
+	width: 27px;
+	height: 33px;
+	float: left;
+}
+/*推荐图片文章*/
+.zhiti{
+	float: left;
+	width: 263px;
+	height: 33px;
+}
+.zhiti ul li{
+	font-size: 18px;
+	font-weight: bold;
+	color: white;
+	padding-left: 10px;
+	padding-top: 6px;	
+}
+/*图片部分*/
+.centre-right-box{
+	width: 289px;
+	height: 410px;
+	float: left;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	/*background-color: indianred;*/
+	
+}
+/*图片设置*/
+.centre-right-tu{
+	width: 120px;
+    height: 127px;
+    float: left;
+    margin: 5px 10px;
+}
+
+.centre-right-tu img{
+	width: 125px;
+	height: 102px;
+	border: 1px solid #dbdbdb;
+	padding: 2px;
+}
+.centre-right-tu p{
+	font-size: 13px;
+	line-height: 20px;
+}
+.centre-right-tu:hover p{
+	color: red;
+}
+/*热点文章*/
+.zhiti-2{
+	float: left;
+	width: 263px;
+	height: 33px;
+}
+.zhiti-2 ul li{
+	font-size: 18px;
+	font-weight: bold;
+	color: white;
+	padding-left: 10px;
+	padding-top: 6px;	
+}
+/*中右底部文字*/
+.centre-right-wenzhi{
+	width: 289px;
+	height: 200px;
+	float: left;
+	margin: 10px 0;
+	/*margin: auto;*/
+	/*background: orangered;*/
+}
+
+.centre-right-wenzhi ul{
+	width: 285px;
+	height: 120px;
+}
+.centre-right-wenzhi ul li a{
+	display: block;
+    width: 264px;
+	height: 27px;
+	font-size: 13px;
+	line-height: 26px;
+    color: black;
+    padding-left: 26px;
+    background: url(../img/libg5.png) no-repeat;
+    
+}
+.centre-right-wenzhi ul li a:hover{
+	background-position-y: -28px;
+	color: white;
+}
+
+.centre-right-wenzhi ul li:nth-child(1):hover{
+	background: red;
+}
+.centre-right-wenzhi ul li:nth-child(2):hover{
+	background: red;
+}
+.centre-right-wenzhi ul li:nth-child(3):hover{
+	background: red;
+}
+.centre-right-wenzhi ul li:nth-child(4):hover{
+	background: red;
+}
+.centre-right-wenzhi ul li:nth-child(5):hover{
+	background: red;
+}
+.centre-right-wenzhi ul li:nth-child(6):hover{
+	background: red;
+}
+/*身体底部分页部分*/
+.fenye{
+	width: 100%;
+    height: 25px;
+    margin: 26px 0px;
+}
+.fenye ul li{
+	width: 25px;
+    height: 20px;
+    float: left;
+    font-size: 13px;
+    text-align: center;
+    padding-top: 6px;
+    margin: 0px 2px;
+    border: 1px solid #A2A2A2;
+   
+}
+.fenye ul li a{
+	 color: #a2a2a2;
+}
+/*字行宽*/
+.fenye ul li:nth-child(1){
+	width: 50px;
+}
+.fenye ul li:nth-child(6){
+	width: 50px;
+}
+.fenye ul li:nth-child(7){
+	width: 50px;
+}
+/*悬浮*/
+.fenye ul li:hover{
+	background: red;
+	color: white;
+}
+.fenye ul li:hover a{
+	color: white;
+}
+.fenye>a{
+	width:100px;
+    height:25px;
+    margin-right:10px;
+    float:right;
+    font-size: 13px;
+    line-height:23px;
+    text-align:center;
+    background:#b5b5b5;
+    color: white;
+	}
+

@@ -1,0 +1,186 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+/*去掉a标签下划线*/
+a{
+	text-decoration: none;
+
+}
+/*去掉li的小标点*/
+li{
+	list-style: none;
+}
+/*头部*/
+.top{
+	width: 100%;
+	min-width: 1000px;
+	height: 180px;
+	background:url(../img/xiaotiao.png);
+}
+.top_tu{
+	width: 1000px;
+	height: 180px;
+	margin: 0 auto;
+	background-image: url(../img/top.png);
+	background-repeat:no-repeat;
+}
+.top_tu ul{
+	width: 950px;
+    height: 50px;
+    margin-left: 40px;
+}
+.top_tu ul li{
+	float: left;
+	width: 100px;
+	height: 40px;
+	margin: 0 1px;
+	padding-top:10px ;
+	text-align: right;
+	
+}
+.top_tu ul li a{
+	font-family: "微软雅黑";
+	font-weight:bold;
+	font-size: 15px;
+	color: #353434;
+}
+.top_tu ul li span{
+	display: block;
+	font-size: 10px;
+	color: gray;
+	font-weight: 100;
+}
+/*悬停变颜色*/
+.top_tu ul li:hover a{
+	color: red;
+}
+.top_tu ul li:hover span{
+	color: black;
+}
+/*脖子背景图片*/
+.neck{
+	width: 100%;
+	min-width: 1000px;
+	height:550px;
+	position: relative;
+}
+/*脖子广告大图片*/
+.neck_tupian{
+	width: 100%;
+	min-width: 1000px;
+	height: 550px;
+	transition: 1s;
+	position: absolute;
+	/*display: none;*/
+	
+}
+.neck_tupian:nth-child(1){
+	background: url(../img/head.png) repeat-x center;
+	/*display: block;*/
+}
+.neck_tupian:nth-child(2){
+	background: url(../img/head2.png) repeat-x center;
+	background-size: cover;
+	/*display: block;*/
+}
+.neck_tupian:nth-child(3){
+	background: url(../img/head3.png) repeat-x center;
+	background-size: cover;
+	/*display: block;*/
+}
+.neck_tupian:nth-child(4){
+	background: url(../img/head4.png) repeat-x center;
+	background-size: cover;
+    /*display: block*/
+}
+.neck>ul{
+	width: 1000px;
+	height: 34px;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	margin-left: -500px;
+}
+.neck>ul>li{
+	float: left;
+	width: 216px;
+	height: 34px;
+	line-height: 35px;
+	margin: 0 2px;
+	padding-top:1px ;
+	background: rgba(0,0,0,0.5);
+	text-align: center;
+	color: white;	
+}
+.neck>ul>li:hover{
+	background-color: red;
+}
+/*小方块位置设置*/
+.neck>ul>li:nth-child(1){
+	width: 57px;
+	height: 33px;
+	background: url(../img/arr.png) no-repeat;
+	background-position:0 0 ;
+	margin-right: 1px;
+}
+/*小方块悬停颜色设置*/
+.neck>ul>li:nth-child(1):hover{
+	background-position: 0px -34px;
+}
+
+.neck>ul>li:nth-child(6){
+	width: 57px;
+	height: 33px;
+	background: url(../img/arr.png) no-repeat;
+	background-position: -57px 0;
+	margin-left: 1px;
+}
+/*小方块悬停颜色设置*/
+.neck>ul>li:nth-child(6):hover{
+	background-position: -57px -34px;
+}
+/*内容上部*/
+.body_top{
+	width: 1000px;
+	height: 96px;
+	background:url(../img/phon.png);
+	margin: 2px auto;
+	margin-bottom: 10px;
+}
+/*qq悬停手*/
+.top-qq{
+	display: inline-block;
+	width: 188px;
+	height: 96px;
+	margin-left: 261px;
+}
+/*微博悬停手*/
+.top-weipo{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	margin-left: 20px;
+	margin-bottom: 10px;
+	border-radius:100% ;
+
+}
+/*空间悬停手*/
+.top-kongjian{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	margin-left: -5px;
+	margin-bottom: 10px;
+	border-radius:100% ;
+}
+/*腾讯悬停手*/
+.top-tenxun{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	margin-left: -6px;
+	margin-bottom: 10px;
+	border-radius:100% ;
+}

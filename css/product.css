@@ -1,0 +1,272 @@
+
+/*身体部分*/
+.body{
+	width: 1000px;
+	height: 1170px;
+	margin: 1px auto;
+/*	background: olive;*/
+}
+
+/*身体中间左边部分*/
+.centre-left{
+	width: 300px;
+	height: auto;
+	margin-left: 10px;
+	float: left;
+}
+/*顶部文字*/
+.centre-left>p{
+	width: 300px;
+	height: 20px;
+	font-size: 15px;
+	margin: 10px 0;
+}
+.centre-left>p>a{
+	color: gray;
+	font-size: 12px;
+}
+/*中左大框*/
+.datiao{
+	width: 300px;
+	height: 400px;
+	
+}
+/*小框*/
+.left-tiao{
+	width: 300px;
+	height:auto;
+	
+}
+.left_box{
+	height: 100px;
+	transition: 1s;
+	overflow: hidden;	
+}
+.left_box li{
+	font-size: 15px;
+	line-height: 20px;
+	text-align: center;
+    
+} 
+.left_box li a{
+	color: black;
+}
+/*条子设置*/
+.left-tiaozhi{
+	width:289px ;
+	height: 33px;
+	margin: 10px 0;
+	background: #DCDCDC;
+}
+.left-tiaozhi img{
+	float:left;
+}
+.left-tiaozhi p{
+	width: 213px;
+	height: 19px;
+    padding: 7px 39px;
+}
+.left-tiaozhi p a{
+	color: gray;
+	font-size: 15px;
+	font-weight: bold;
+}
+.left-tiaozhi:hover p{
+	background: red;
+}
+.left-tiaozhi:hover p a{
+	color: white;
+}
+/*条下字体*/
+/*.box_ul{
+	width: 200px;
+	height: 167px;
+	padding-left: 56px;
+	position: absolute;
+	top:45px;
+	left: 0px;
+}*/
+
+/*.left-tiao:nth-child(1){
+	width: 300px;
+	height: 215px;
+	overflow: inherit;      
+}*/
+/*.left-tiao:hover{
+	width: 300px;
+	height: 215px;
+}*/
+
+.left_box li:nth-child(1):hover a{
+	color: red;
+}
+.left_box li:nth-child(2):hover a{
+	color: red;
+}
+.left_box li:nth-child(3):hover a{
+	color: red;
+}
+.left_box li:nth-child(4):hover a{
+	color: red;
+}
+.left_box li:nth-child(5):hover a{
+	color: red;
+}
+.left_box li:nth-child(6):hover a{
+	color: red;
+}
+.left_box li:nth-child(7):hover a{
+	color: red;
+}
+.left_box li:nth-child(8):hover a{
+	color: red;
+}
+/*最新活动*/
+.zuixin{
+    width: 300px;
+    height: 290px;
+    /*background: red;*/
+}
+.zuixin_zhi{
+	width: 275px;
+	height: 49px;
+	margin-top: 5px;
+	/*background: url(../img/libg11.gif) no-repeat;*/	
+}
+.zuixin_zhi ul{
+	width: 280px;
+	height: 50px;
+	line-height: 23px;
+	border-bottom: 1px dashed gray;
+}
+.zuixin_zhi ul li{
+	font-size: 12px;
+}
+
+.zuixin_zhi:hover{
+	color: red;
+}
+/*服务报价*/
+.fuwu{
+	width: 300px;
+	height: auto;
+}
+/*框*/
+.fuwu_xiaokuang{
+	width: 291px;
+	height: 71px;
+	margin-top: 17px;
+}
+/*左框*/
+.fuwu_xiaokuang_left{
+	float: left;
+    width: 150px;
+    height: 70px;
+  
+}
+/*左框字*/
+.fuwu_xiaokuang_left p{
+	width: 141px;
+	height: 70px;
+	font-size: 12px;
+}
+/*右框*/
+.fuwu_xiaokuang_right{
+	float: left;
+	width: 141px;
+	height: 70px;
+	background: url(../img/libg14.gif) no-repeat;
+	background-position: 0 -71px;
+	position: relative;
+}
+/*右框字体样式设计*/
+.xiaosj{
+	position: absolute;
+	display: inline-block;
+	margin-left: -12px;
+	margin-bottom: 10px;
+	margin-top: 22px;
+	width: 12px;
+	height: 24px;
+	background: url(../img/libg8.gif) no-repeat;
+    background-position: 0 0;
+}
+/*右框字*/
+.fuwu_xiaokuang_right p{
+	font-size: 12px;
+    padding-top: 5px;
+    line-height: 13px;
+}
+/*!important优先级*/
+.ziti2{
+	font-size: 25px !important;
+}
+/*悬停*/
+.fuwu_xiaokuang:hover .fuwu_xiaokuang_left {
+	color: red;
+}
+.fuwu_xiaokuang:hover .fuwu_xiaokuang_right{
+	background-position:0 0;
+	color: white;
+}
+.fuwu_xiaokuang:hover .xiaosj{
+	background-position: 0 -24px;
+}
+/*身体中间右边部分*/
+.centre-right{
+	width: 674px;
+	height: auto;
+	float:right;
+	margin-top: 10px;
+	padding-top: 10px;
+}
+/*right_top部分*/
+.right_top{
+	width: 615px;
+	height: 71px;
+	padding-left: 18px;
+}
+/*照片部分*/
+.zhaopian{
+	width: 319px;
+	height: 324px;
+	padding-left: 18px;
+	float: left;
+	margin-top: 10px;
+}
+.zhaopian ul{
+	width: 319px;
+	height: auto;
+	font-size: 13px;
+	margin-top: 20px;
+	color: #4f4f4f;
+}
+.zhaopian ul li:nth-child(1){
+	width: 309px;
+	height: 30px;
+	background: #c8c8c8;
+	line-height: 20px;
+	padding-left: 10px;
+	padding-top: 10px;
+	font-weight: bold;
+}
+.li_1{
+	float: right;
+	font-size: 30px;
+    padding-right: 10px;
+	font-weight: bold;
+}
+.li_2{
+	float: right;
+	font-size: 13px;
+}
+/*.zhaopian ul li:nth-child(1):hover{*/
+/*悬停*/
+.zhaopian:hover ul li:nth-child(1){
+	background: yellow;
+	color: red;
+}
+.zhaopian:hover ul li:nth-child(2){
+	color: red;
+}
+
